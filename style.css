@@ -1,0 +1,69 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    background: #1F2937;
+}
+.mainBox {
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 445px;
+    height: auto;
+}
+.pass1 , .pass2{
+    background: #273549;
+    width: 221px;
+    height: 39px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800;
+    color: #fff;
+}
+
+span {
+    color: #4ADF86;
+}
+
+h4 {
+    color: #D5D4D8;
+    font-size: 20px;
+}
+
+.first-sec {
+    padding-bottom: 50px;
+}
+
+button {
+    color: #fff;
+    background: #10B981;
+    padding: 9px 17px 9px 15px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+}
+
+.btnSec {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #2F3E53;
+}
+.pswrdSec {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+p#password-one, p#password-two {
+    font-family: 'Inter', sans-serif;
+    color: #10b981;
+}
